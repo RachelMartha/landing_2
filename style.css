@@ -1,4 +1,53 @@
-#puppy_vlog > iframe {
+body {
+    background-color: #d6cbd3;
+    font-family: 'Lato', monospace;
+}
+.navbar {
+    background-color: #ada397; 
+     
+}
+.nav-link {
+    color: #d6cbd3; 
+    font-size: 20px;
+    
+     
+}
+.navbar-brand {
+    color: #d6cbd3;
+    font-size: 30px;
+}
+
+h1 {
+    color:  #ada397;
+    text-align: center;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card {
+      background-color: #ada397;
+    
+  }
+  .card-img-top {
+        
+        width: 325px;
+        height: 325px;
+        
+  }
+
+
+#puppy_vlog {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #puppy_vlog > iframe {
     max-width: 560px;
     width: 100%;
   }
+  
+  
